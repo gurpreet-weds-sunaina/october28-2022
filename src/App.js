@@ -163,24 +163,25 @@ function App() {
                       <div className="media-body">
                         <h4 className="card-title mbr-fonts-style display-2">
                           Friday, October 28, 2022</h4>
-                        <p className="block-text mbr-fonts-style display-7">
-                          {`( 10 AM to 4 PM)`}
-                        </p>
                       </div>
                     </div>
                   </div>
 
                   <div className="card p-3 pr-3">
                     <div className="media">
-
                       <div className="media-body">
-                        <h4 className="card-title mbr-fonts-style display-2">
-                          Amantran Ville</h4>
+                        <h5 className="card-title mbr-fonts-style display-2">
+                          Wedding</h5>
+                        <p className="block-text mbr-fonts-style display-7">
+                          {`( 10 AM to 4 PM)`}
+                        </p>
                       </div>
                     </div>
 
                     <div className="card-box">
                       <p className="block-text mbr-fonts-style display-7">
+                        Amantran Ville
+                        <br />
                         New Grain Market,
                         <br />
                         Gill Road,
