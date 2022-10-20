@@ -108,7 +108,7 @@ function App() {
                 <div className="block-content">
                   <div className="card p-3 pr-3">
                     <div className="media">
-                      <div className="media-body">
+                      <div className="media-body" style={{ display: "flex", justifyContent: "center" }}>
                         <h4 className="card-title mbr-fonts-style display-2">
                           Thursday, October 27, 2022</h4>
                       </div>
@@ -116,7 +116,7 @@ function App() {
                   </div>
                   <div className="card p-3 pr-3">
                     <div className="media">
-                      <div className="media-body">
+                      <div className="media-body" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                         <h5 className="card-title mbr-fonts-style display-2">
                           Path Sukhmani Sahib</h5>
                         <p className="block-text mbr-fonts-style display-7">
@@ -129,14 +129,15 @@ function App() {
                         </p>
                       </div>
                     </div>
-                    <div className="card-box">
+                    <div className="card-box" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                       <p className="block-text mbr-fonts-style display-7">
                         House #1508/48 Street #6,
-                        <br />
+                      </p>
+                      <p className="block-text mbr-fonts-style display-7">
                         Harkrishan Nagar, Ludhiana, Punjab
                       </p>
                     </div>
-                    <div className="card-box">
+                    <div className="card-box" style={{ display: "flex", justifyContent: "center" }}>
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4224.530065863925!2d75.86967870432007!3d30.858836938803886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a829081aa5705%3A0x1ba32f0090556893!2zMzDCsDUxJzMyLjUiTiA3NcKwNTInMDUuMiJF!5e0!3m2!1sen!2sin!4v1666214662328!5m2!1sen!2sin" width="400" height="300" style={{ border: '0' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
@@ -160,7 +161,7 @@ function App() {
                 <div className="block-content">
                   <div className="card p-3 pr-3">
                     <div className="media">
-                      <div className="media-body">
+                      <div className="media-body" style={{ display: "flex", justifyContent: "center" }}>
                         <h4 className="card-title mbr-fonts-style display-2">
                           Friday, October 28, 2022</h4>
                       </div>
@@ -169,7 +170,7 @@ function App() {
 
                   <div className="card p-3 pr-3">
                     <div className="media">
-                      <div className="media-body">
+                      <div className="media-body" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                         <h5 className="card-title mbr-fonts-style display-2">
                           Wedding</h5>
                         <p className="block-text mbr-fonts-style display-7">
@@ -178,26 +179,27 @@ function App() {
                       </div>
                     </div>
 
-                    <div className="card-box">
+                    <div className="card-box" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                       <p className="block-text mbr-fonts-style display-7">
                         Amantran Ville
-                        <br />
+                      </p>
+                      <p className="block-text mbr-fonts-style display-7">
                         New Grain Market,
-                        <br />
+                      </p>
+                      <p className="block-text mbr-fonts-style display-7">
                         Gill Road,
-                        <br />
+                      </p>
+                      <p className="block-text mbr-fonts-style display-7">
                         Ludhiana, Punjab 141003
-                        <br />
-                        <br />
-                        <br />
+                      </p>
+                      <p className="block-text mbr-fonts-style display-7">
                         <a href="#map1-b">Check on Map</a>
+                      </p>
 
-                        <br />
-                        <br />
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit?state=%5Bnull%2Cnull%2Cnull%2Cnull%2C%5B13%5D%5D">
-                          Add to your calendar
-                          <br />
-                          <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif" /></a>
+                      <a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit?state=%5Bnull%2Cnull%2Cnull%2Cnull%2C%5B13%5D%5D">
+                        Add to your calendar </a>
+                      <p className="block-text mbr-fonts-style display-7">
+                        <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif" />
                       </p>
                     </div>
                   </div>
